@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* ------ Print ------ */
+@media print{
+body {width: 100% !important;margin: 0 !important;padding: 0 !important;line-height: 1.5em;word-spacing: 1.1pt;letter-spacing: 0.2pt;font-family: Garamond, "Times New Roman", serif;color: #000;background: none;font-size: 1.2em;}
+.wrapper, .container, .center{background:none;}
+hr {background: #ccc;color: #ccc;width: 100%;height: 2px;margin: 2em 0;padding: 0;border: none;}
+h1, h2, h3, h4, h5, h6 {font-family: Helvetica, Arial, sans-serif;}
+h1 {font-size: 1.9em;}
+h2 {font-size: 1.7em;}
+h3 {font-size: 1.5em;}
+h4, h5, h6 {font-size: 1.2em;}
+code {font: .9em "Courier New", Monaco, Courier, monospace;}
+a, a img {border: none;}
+blockquote {margin: 1.5em;padding: 1em;font-style: italic;font-size: .9em;}
+a:link, a:visited {background: transparent;text-decoration: underline;}
+a:link:after, a:visited:after {content: " (" attr(href) ")";}
+table {margin: 1px;text-align: left;}
+th {border-bottom: 1px solid #333;font-weight: bold;}
+td {border-bottom: 1px solid #333;}
+th, td {padding: 4px 10px 4px 0;}
+tfoot {font-style: italic;}
+caption {background: #FFF;color: #000;margin-bottom: 2em;text-align: left;}
+thead {display: table-header-group;}
+tr {page-break-inside: avoid;}
+#header, #footer, #navigation, #sidebar, button {display: none;}
+}
